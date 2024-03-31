@@ -1,0 +1,42 @@
+@media screen and (max-width: 426px){
+    .nav_ul{
+        display: none;
+    }
+    .header_content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .header_content_left{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main_about {
+        flex-direction: column;
+    }
+
+    .projects_slider_buttons{
+        flex-direction: column;
+    }
+
+    .get_in_touch_content{
+        flex-direction: column;
+    }
+    .get_in_touch_form{
+        width: 100%;
+    }
+    .get_in_touch_form input{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .get_in_touch_text{
+        width: 90%;
+    }
+
+    .bx-menu:before{
+        display: block;
+    }
+    
+} 
