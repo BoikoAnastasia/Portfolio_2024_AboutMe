@@ -9,6 +9,8 @@ const animations_projects = document.querySelector(".animations_projects");
 const btn_menu = document.querySelector('.bx-menu_main');
 const bx_menu_drop = document.querySelector('.bx-menu_drop');
 const top_menu = document.querySelector(".menu_drop_down");
+const btn_hire = document.querySelector(".btn_hire");
+const btn_more = document.querySelector(".btn_more");
 
 btn_menu.addEventListener("click", ()=> {
     top_menu.classList.toggle('drop');
@@ -41,7 +43,12 @@ animations_button.addEventListener('click', ()=>{
     animations_projects.style.display = 'flex';
     animations_button.classList.add('active');
 })
-
+btn_hire.addEventListener("click", ()=>{
+    window.location = '#main_get_in_touch';
+})
+btn_more.addEventListener("click", ()=>{
+    window.location = '#main_about';
+})
 
 const removeActive = () => {
     document.querySelectorAll(".btn_slider").forEach(element => {
